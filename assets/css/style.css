@@ -468,6 +468,7 @@ li {
   line-height: 48px;
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+  z-index: 2;
 }
 
 @media (max-width: 575px) {
@@ -2048,6 +2049,7 @@ li {
 .mobile_menu {
   position: absolute;
   right: 0px;
+  top: -60px;
   width: 100%;
   z-index: 99;
 }
@@ -6294,6 +6296,11 @@ del {
     width: 95%;
     margin-bottom: 20px;
   }
+
+  .carousel-caption{
+    right: 5%;
+    left: 5%;
+  }
 }
 
 .ft-logo{
@@ -6427,7 +6434,7 @@ border-bottom: none;
 }
 
 .hero-heading{
-  font-size: 30px !important;
+  font-size: 26px !important;
 }
 
 @media screen and (max-width: 468px) {
@@ -6438,6 +6445,8 @@ border-bottom: none;
   .carousel-height{
     height: 60vh !important;
   }
+
+  
 }
 
 
@@ -6452,10 +6461,25 @@ a{
 }
 
 /* Carousel */
-.bg-slide{
-  background-image: url(../img/logo/cd_foundations-main_logo.png);
+.slide2{
+  background-image: url(../img/gallery/tech.jpeg);
   /* background-repeat: no-repeat;
   background-size: cover; */
 }
+.slicknav_menu {
+  background-color: transparent !important; 
+}
 
+.slicknav_menu ul {
+  background-color: #222 !important;
+  
+}
 
+.slicknav_menu .slicknav_menutxt {
+  display: none !important;
+ 
+}
+
+.slicknav_menu .slicknav_icon {
+  margin: 0;
+}
