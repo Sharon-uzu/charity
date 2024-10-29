@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chukwudi Dimkpa Foundation</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div className="application">
+        <div className="form-text">
+          
+          <div className="embrace">
+          
+          </div>
+          
+          
+          
+        </div>
+  
+        <div className="formHolder">
+          <p></p>
+          <h4>Sign Up</h4>
+          <p>Fill in your Details</p>
+          <div className="form">
+            <label htmlFor="name">
+              {/* <p>Fullname</p> */}
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Enter Full Name"               
+              />
+             
+            </label>
+  
+            <label htmlFor="">
+              {/* <p>Phone Number</p> */}
+              <input
+                value={formData.phone}
+                type="tel"
+                name=""
+                id=""
+                placeholder="Phone number"
+               
+              />
+            </label>
+  
+            <label htmlFor="">
+              {/* <p>Email Address</p> */}
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Email Address"
+                
+              />
+            </label>
+  
+            <label htmlFor="">
+              {" "}
+               <p>Gender</p>
+              <select
+               
+              >
+                <option value={null} >
+                  Select Gender
+                </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+              
+            </label>
+  
+            <label htmlFor="">
+              {/* <p>Age Range</p> */}
+  
+              <select
+                
+              >
+                <option value={null} >
+                  Select Age Range
+                </option>
+                <option value="1">18 - 25</option>
+                <option value="2">26 - 30</option>
+                <option value="3">31 - 35</option>
+              </select>
+            </label>
+  
+            <label htmlFor="">
+               <p>Preferred Package</p>
+              <select
+                
+              >
+                <option value={null}>Preferred Package</option>
+                <option value="Product Design">Product Design</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Data Analysis">Data Analysis</option>
+                <option value="Web Development (Frontend)">Web Development (Frontend)</option>
+                <option value="Graphics Design">Graphics Design</option>
+              </select>
+              
+            </label>
+  
+            <label htmlFor="">
+              {/* <p>LGA</p> */}
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="LGA"
+              />
+              
+            </label>
+  
+           
+  
+            <label htmlFor="">
+               <p>Do you have a laptop?</p> 
+              <select>
+                <option value={null}>laptop availability</option>
+                <option value="laptop-available">Available</option>
+                <option value="laptop-unavailable">Not available</option>
+                
+              </select>
+              
+            </label>
+  
+  
+            <label htmlFor="">
+              
+              <p>Will you be physically available for 3 months?</p>
+              <select>
+                <option value={null}>physical availability</option>
+                <option value="physical-available">yes</option>
+                <option value="physical-unavailable">No</option>
+                
+              </select>
+              
+            </label>
+  
+  
+  
+            <label htmlFor="">
+              <p>What is your message to the foundaion? (optional)</p>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+              
+            </label>
+  
+            
+  
+           
+           
+  
+  
+          </div>
+          <div className="submit">
+            <button type="submit" onClick={saveItem}>
+              Enroll
+            </button>
+          </div>
+        </div>
+  
+        
+      </div>
+    
+</body>
+</html>
